@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지자체별 사고다발지역</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>지자체별사고 다발지역정보 <span id="siDo"></span></h1>
+    <input id="inputBox" type="text">
+    <button id="searchButton">검색</button>
+    <button id="siDoSelect">시도 선택</button>
+    <button id="readMe">설명</button>
+    <button id="searchList">지역 목록</button>
+    <div id="map" class="maps"></div>
+    <div class="siDoMenu">
+        <button data-name="서울특별시 " data-sido="11" class="sidobutton">서울특별시</button>
+        <button data-name="부산광역시 " data-sido="26" class="sidobutton">부산광역시</button>
+        <button data-name="대구광역시 " data-sido="27" class="sidobutton">대구광역시</button>
+        <button data-name="인천광역시 " data-sido="28" class="sidobutton">인천광역시</button>
+        <button data-name="광주광역시 " data-sido="29" class="sidobutton">광주광역시</button>
+        <button data-name="대전광역시 " data-sido="30" class="sidobutton">대전광역시</button>
+        <button data-name="울산광역시 " data-sido="31" class="sidobutton">울산광역시</button>
+        <button data-name="세종특별자치시 " data-sido="36" class="sidobutton">세종특별자치시</button>
+        <button data-name="경기도 " data-sido="41" class="sidobutton">경기도</button>
+        <button data-name="강원도 " data-sido="42" class="sidobutton">강원도</button>
+        <button data-name="충청북도 " data-sido="43" class="sidobutton">충청북도</button>
+        <button data-name="충청남도 " data-sido="44" class="sidobutton">충청남도</button>
+        <button data-name="전라북도 " data-sido="45" class="sidobutton">전라북도</button>
+        <button data-name="전라남도 " data-sido="46" class="sidobutton">전라남도</button>
+        <button data-name="경상북도 " data-sido="47" class="sidobutton">경상북도</button>
+        <button data-name="경상남도 " data-sido="48" class="sidobutton">경상남도</button>
+        <button data-name="제주특별자치도 " data-sido="50" class="sidobutton">제주특별자치도</button>
+    </div>
+</body>
+<script src="index.js"></script>
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvfrEDA2dy5d1pq6oi8QWFJCrMHgYvaQk&callback=initMap"></script>
+</html>

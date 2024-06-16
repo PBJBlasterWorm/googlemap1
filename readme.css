@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle1 {
+    position: fixed;
+    opacity: 0.3;
+    border-radius: 50%;
+    top: 300px;
+    left: -200px;
+    width: 500px;
+    height: 500px;
+    background-color: #00FFFF;
+}
+
+.circle2 {
+    position: fixed;
+    opacity: 0.3;
+    border-radius: 50%;
+    top: 100px;
+    right: -300px;
+    width: 500px;
+    height: 500px;
+    background-color: #2EFE2E;
+}
+
+.info1 {
+    margin: 20px;
+}
